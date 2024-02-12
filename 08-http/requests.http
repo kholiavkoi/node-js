@@ -1,0 +1,9 @@
+POST http://localhost:5001/comments
+Content-Type: application/json
+
+{ "id": 664, "text": "Alice comment", "author": "Alice" }
+
+###
+
+GET http://localhost:5001/comments
+Content-Type: application/json
